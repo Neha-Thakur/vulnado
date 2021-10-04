@@ -1,0 +1,6 @@
+[
+  {
+    "name": "codesecure",
+    "imageUri": "public.ecr.aws/o6h7u3a6/codesecure:latest"
+  }
+]
