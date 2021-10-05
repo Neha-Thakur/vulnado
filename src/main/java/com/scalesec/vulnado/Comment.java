@@ -39,7 +39,7 @@ public class Comment {
     try {
       Connection cxn = Postgres.connection();
       stmt = cxn.createStatement();
-
+      
       String query = "select * from comments;";
       ResultSet rs = stmt.executeQuery(query);
       while (rs.next()) {
