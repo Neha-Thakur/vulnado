@@ -26,7 +26,6 @@ public class CommentsController {
     return Comment.create(input.username, input.body);
   }
   
-  
   @CrossOrigin(origins = "*")
   @RequestMapping(value = "/comments/{id}", method = RequestMethod.DELETE, produces = "application/json")
   Boolean deleteComment(@RequestHeader(value="x-auth-token") String token, @PathVariable("id") String id) {
