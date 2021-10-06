@@ -26,8 +26,6 @@ public class LoginController {
   }
 }
 
-
-
 class LoginRequest implements Serializable {
   public String username;
   public String password;
