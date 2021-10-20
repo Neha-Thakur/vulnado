@@ -9,7 +9,6 @@ import java.util.List;
 import java.io.IOException;
 import java.net.*;
 
-
 public class LinkLister {
   public static List<String> getLinks(String url) throws IOException {
     List<String> result = new ArrayList<String>();
